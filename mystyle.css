@@ -1,0 +1,49 @@
+.container
+{
+	width: 800px;
+	margin: auto;
+	background-color: AliceBlue;
+}
+.left-container 
+{
+	background-color: lightblue;
+	width: 350px;
+	float: left;
+}
+.title
+{
+	float: left;
+}
+.menu
+{
+	float: right;
+}
+.clear
+{
+	clear: both;
+}
+a.menu-item
+{
+	margin:20 px;
+
+}
+a.menu-item:link
+{
+   color: black;
+}
+a.menu-item:hover
+{
+	color: blue;
+}
+a.menu-item:visited
+{
+	color: red;
+}
+.profile
+{
+	background-color: lightblue;
+	float: right;
+	width: 350px;
+	text-align: center;
+}
+
