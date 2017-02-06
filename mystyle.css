@@ -1,6 +1,6 @@
 .container
 {
-	width: 800px;
+	width: 95%;
 	margin: auto;
 	background-color: AliceBlue;
 	box-shadow: 10px 10px 5px #888888;
@@ -8,7 +8,7 @@
 .left-container 
 {
 	background-color: lightblue;
-	width: 350px;
+	width: 45%;
 	float: left;
 	  box-shadow: 10px 10px 5px #888888;
 }
@@ -50,7 +50,7 @@ a.menu-item:hover
 {
 	background-color: lightblue;
 	float: right;
-	width: 350px;
+	width: 45%;
 	text-align: center;
 	box-shadow: 10px 10px 5px #888888;
 }
@@ -67,4 +67,11 @@ background-color: #1E90FF;
 	float: center;
 	text-align: center;
 }
-
+html
+{
+	height: 100%;
+}
+body
+{
+	min-height: 100%;
+}
